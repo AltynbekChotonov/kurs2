@@ -14,18 +14,25 @@ void main(List<String> args) {
     egemenduubu: true,
     kalky: 7000000,
     shaarlar: ['Bishkek', 'osh'],
+
+    // print(kg.ayanty);
+    // print(kg.egemenduubu);
+    // print(kg.name);
+    // print(kg.kalky);
+    // print(kg.Til.name);
+    // print(kg.Til.tamgalar);
   );
   // kg.kalky = 7000000;
-  // print(kg.kalky);
+
   // kg.ayanty = 566161311;
-  // print(kg.ayanty);
+  //
   // kg.egemenduubu = true;
-  // print(kg.egemenduubu);
+  //
   // kg.name = 'Kyrgyzstan';
-  // print(kg.name);
+  //
   // String a = 'a';
   // olko Kyrgyzstan;
-  // print(kg.kalky);
+  //
 }
 
 class olko {

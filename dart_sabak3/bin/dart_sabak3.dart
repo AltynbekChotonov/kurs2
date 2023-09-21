@@ -41,4 +41,5 @@ void main(List<String> arguments) {
 
 
 //  Tapshyrma 
-// List, Set, Map  5 ten   makala soszuz jazuu 
+// List, Set, Map, class,5 ten     
+//  makala  List, Set, Map, class, required  soszuz jazuu 
