@@ -12,12 +12,10 @@ class _EsepteTirkemesiState extends State<EsepteTirkemesi> {
   void koshuu() {
     setState(() {});
     san++;
-    print(san);
   }
 
   @override
   Widget build(BuildContext context) {
-    print("build ishtedi");
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
@@ -27,10 +25,10 @@ class _EsepteTirkemesiState extends State<EsepteTirkemesi> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Бугун Флаттер сабагын отуп жатабыз'),
+            const Text('Бугун Флаттер сабагын отуп жатабыз'),
             Text(
               '$san',
-              style: TextStyle(fontSize: 25),
+              style: const TextStyle(fontSize: 25),
             ),
           ],
         ),
